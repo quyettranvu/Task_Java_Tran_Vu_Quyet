@@ -22,6 +22,6 @@ About using Docker to run the application in container:
 
 - Run command in the root project: docker compose -f docker-compose.dev.yml up --build
 
-- This will look in the Dockerfile, create container, pull images and run with CMD. For running in MySQL Database, need to verify n fiel application.properties: name of db, user, password of both settinggs
+- This will look in the Dockerfile, create container, pull images and run with CMD. For running in MySQL Database, need to verify in file application.properties: name of db, user, password of both settinggs
 
 in docker-compose-yml and application.properties share the same.
