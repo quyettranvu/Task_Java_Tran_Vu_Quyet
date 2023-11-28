@@ -18,10 +18,15 @@ DELETE /tasks/{id} : Delete a task by ID
 
 And I also use Spring Security for authorization and authentication user, currently add role check if required.
 
+# Config Database 
+Inside MySQL create new schema and put name of schema, user, password in file application.properties 
+
 # Run Application Without Docker
 - Config JAVA_HOME in both User and Sysyem Variables (make sure that JDK(Java Development Kit) and Eclipse Adoptimum installed)
 
 - Add path to bin folder of parent folder Eclipse Adoptimum in System Variables
+
+- Config Executable Path for Running and Compilig Java programs in Settings of IDE, then command "Run Java"
 
 # Run Application With Docker in Container
 About using Docker to run the application in container:
