@@ -18,6 +18,12 @@ DELETE /tasks/{id} : Delete a task by ID
 
 And I also use Spring Security for authorization and authentication user, currently add role check if required.
 
+# Run Application Without Docker
+- Config JAVA_HOME in both User and Sysyem Variables (make sure that JDK(Java Development Kit) and Eclipse Adoptimum installed)
+
+- Add path to bin folder of parent folder Eclipse Adoptimum in System Variables
+
+# Run Application With Docker in Container
 About using Docker to run the application in container:
 
 - Run command in the root project: docker compose -f docker-compose.dev.yml up --build
